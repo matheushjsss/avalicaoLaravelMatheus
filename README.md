@@ -1,12 +1,4 @@
-Rodar no terminal:
-   composer install
-   npm install
-   npm run build
-   php artisan migrate (Confirme a criação do novo banco)
-   php artisan db:seed
-   php artisan key:generate
-
-Editar o arquivo .env para a conexão
+Editar/criar o arquivo .env, utilize as seguintes informações para a conexão
    DB_CONNECTION=mysql
    DB_HOST=127.0.0.1
    DB_PORT=3306
@@ -14,6 +6,13 @@ Editar o arquivo .env para a conexão
    DB_USERNAME=root
    DB_PASSWORD=123456
 
+Rodar no terminal:
+   composer install
+   npm install
+   npm run build
+   php artisan migrate (Confirme a criação do novo banco)
+   php artisan db:seed
+   php artisan key:generate
 
 Usuarios criados: 
    admin@example.com -> Somente acesso ao painel admin
