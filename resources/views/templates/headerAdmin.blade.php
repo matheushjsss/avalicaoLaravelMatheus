@@ -1,7 +1,9 @@
 <nav class="flex items-center justify-between flex-wrap p-6" style="background-color: #334983">
    <div class="flex items-center mr-6">
-      <img width="100" height="110" src="{{ asset('img/logo_autogestor_mobile.svg') }}"> 
-   </div>
+      <a href="/home">
+          <img width="100" height="110" src="{{ asset('img/logo_autogestor_mobile.svg') }}" alt="Logo AutoGestor">
+      </a>
+  </div>
    <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
       <div class="lg:flex-grow">
          <a href="{{ route('admin.users') }}" class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-blue-700 mr-4">

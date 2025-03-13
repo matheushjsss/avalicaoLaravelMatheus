@@ -27,19 +27,11 @@
                     class="w-full px-4 py-2 mt-1 border rounded-lg focus:ring focus:ring-blue-300 focus:border-blue-500">
             </div>
 
-            <div class="flex items-center justify-between">
-                <a href="#" class="text-sm text-blue-500 hover:underline">Esqueceu sua senha?</a>
-            </div>
-
             <button type="submit"
                 class="w-full bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600 transition duration-200">
                 Entrar
             </button>
 
-            <p class="text-sm text-center text-gray-600">
-                Não tem uma conta?
-                <a href="{{ route('register') }}" class="text-blue-500 hover:underline">Cadastre-se</a>
-            </p>
         </form>
     </div>
 </div>
