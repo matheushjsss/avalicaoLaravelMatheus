@@ -1,4 +1,4 @@
-Editar/criar o arquivo .env, utilize as seguintes informações para a conexão
+Editar/criar o arquivo .env, utilize as seguintes informaÃ§Ãµes para a conexÃ£o
    DB_CONNECTION=mysql
    DB_HOST=127.0.0.1
    DB_PORT=3306
@@ -10,7 +10,7 @@ Rodar no terminal:
    composer install
    npm install
    npm run build
-   php artisan migrate (Confirme a criação do novo banco)
+   php artisan migrate (Confirme a criaÃ§Ã£o do novo banco)
    php artisan db:seed
    php artisan key:generate
 
@@ -22,4 +22,4 @@ Usuarios criados:
    marcas@example.com
    gerente@example.com
 
-   a senha de todos ficou 12345
+   a senha de todos ficou 123456
