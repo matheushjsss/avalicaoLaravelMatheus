@@ -13,3 +13,4 @@ Editar o arquivo .env para a conexão
    DB_DATABASE=autogestormatheus
    DB_USERNAME=root
    DB_PASSWORD=123456
+
