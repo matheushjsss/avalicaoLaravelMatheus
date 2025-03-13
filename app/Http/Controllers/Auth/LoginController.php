@@ -21,9 +21,21 @@ class LoginController extends Controller
         ]);
 
         if (Auth::attempt($credentials, $request->filled('remember'))) {
+            if(Auth::user()->hasRole('admin')) {
+                return redirect()->intended('/admin');
+            }
             return redirect()->intended('/home');
         }
 
         return back()->with('error', 'Credenciais inválidas.');
+    }
+
+    public function logout(Request $request)
+{
+        Auth::logout();
+        $request->session()->invalidate();
+        $request->session()->regenerateToken();
+
+        return redirect('/login'); // Redireciona para a página de login
     }
 }

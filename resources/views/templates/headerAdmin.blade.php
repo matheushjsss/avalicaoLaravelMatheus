@@ -1,17 +1,14 @@
-<nav class="flex items-center justify-between flex-wrap bg-white p-6">
+<nav class="flex items-center justify-between flex-wrap p-6" style="background-color: #334983">
    <div class="flex items-center mr-6">
       <img width="100" height="110" src="{{ asset('img/logo_autogestor_mobile.svg') }}"> 
    </div>
    <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
       <div class="lg:flex-grow">
-         <a href="{{ route('produtos') }}" class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-blue-700 mr-4">
-            Produtos
+         <a href="{{ route('admin.users') }}" class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-blue-700 mr-4">
+            Usuarios
          </a>
-         <a href="{{ route('categorias') }}" class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-blue-700 mr-4">
-            Categorias
-         </a>
-         <a href="{{ route('marcas') }}" class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-blue-700 mr-4">
-            Marcas
+         <a href="{{ route('admin.perfis') }}" class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-blue-700 mr-4">
+            Perfis
          </a>
       </div>
       <div>

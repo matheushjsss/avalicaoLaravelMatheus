@@ -6,4 +6,8 @@
        {{ auth()->user()->name }}
        @endauth
     </div>
+
+    <div>
+        <h1>Marcas</h1>
+    </div> 
 @endsection
